@@ -1,3 +1,5 @@
 name: Staging deployment
 
 on:
+  build:
+    types: [labeled]
